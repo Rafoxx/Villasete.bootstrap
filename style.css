@@ -1,0 +1,157 @@
+body {
+    font-family: "Poetsen One", sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+i {
+    font-size: 30px;
+}
+
+header h1 {
+    margin-left: 45%;
+    color: #c9823a;
+}
+header h2 {
+    color: #c9823a;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .title {
+    background-color: #be8e5d;
+    display: flex;
+    width: 500px;
+    height: 1px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #d4a373;
+    margin: 0 40px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.eventos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 40px;
+}
+
+.eventos article {
+    width: 400px;
+}
+
+.eventos img {
+    width: 400px;;
+}
+
+.eventos ul li {
+    color: #c9823a;
+}
+
+section {
+    background-color: #c9823a1f;
+}
+
+.cardapio img {
+    width: 400px;
+}
+
+.cardapio .card {
+    background-color: #c9823a;
+    color: #f4f4f4;
+    width: 400px;
+}
+
+.cardapio .list-group-item.list-group-item-action.active {
+    background-color: #c9823a;
+    border-color: #c9823a; 
+}
+
+#contato button{
+    background-color: #c9823a;
+    border: #be8e5d;
+}
+
+#contato button:hover {
+    background-color: orange;
+}
+
+footer {
+    padding: 10px;
+    color: #f4f4f4;
+    background-color:#333;
+}
+
+
+@media (max-width: 768px) {
+    header h1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .eventos {
+        display: block;
+        text-align: center;
+    }
+
+    .eventos article {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    section .title {
+        width: 80%;
+        margin: 0 auto 20px auto;
+    }
+
+    #contato .row .col-md-4, #contato .row .col-12 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    #contato .row .col-12 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel-caption {
+        font-size: smaller;
+    }
+}
+
+@media (max-width: 576px) {
+    .eventos img, .cardapio img {
+        width: 100%;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    section h2 {
+        font-size: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cardapio .list-group-item {
+        margin-bottom: 10px;
+    }
+
+    .offcanvas-body ul a img {
+        width: 25px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    
+}
+
